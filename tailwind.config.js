@@ -7,11 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      colors: {
+        roxo: {
+          300: '#bd58e7',
+          400: '#8e64d9',
+          600: '#590d90',
+        },
+        azul: {
+          400: '#628cc7',
+        },
+        cinza: {
+          600: '#575757',
+        },
+      }
     },
   },
   plugins: [],

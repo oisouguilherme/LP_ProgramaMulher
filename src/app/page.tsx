@@ -19,7 +19,6 @@ export default function Home() {
       <br />
       <DataHora/>
       <FaleComAGente/>
-      <Footer/>
     </>
   )
 }
