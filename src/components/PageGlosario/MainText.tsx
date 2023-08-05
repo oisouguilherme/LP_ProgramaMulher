@@ -1,6 +1,6 @@
 export function MainText() {
   return (
-    <div className="max-w-2xl mx-auto py-32">
+    <div className="max-w-2xl mx-auto py-32 text-justify">
       <div className="flex flex-col gap-2">
         <h2 className="text-7xl text-roxo-400 font-1">GLOSSÁRIO</h2>
         <div className="h-1 w-96 bg-roxo-400"></div>
