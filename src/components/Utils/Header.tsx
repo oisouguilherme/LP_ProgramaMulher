@@ -2,6 +2,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { BiSearch } from "react-icons/bi";
 import Logo from "../../images/PageHome/logo.png";
 import Image from "next/image";
+import Link from "next/link";
 export function Header() {
   return (
     <>
@@ -25,31 +26,31 @@ export function Header() {
       <div className="bg-white">
         <ul className="text-[#450081] uppercase flex max-w-6xl mx-auto justify-between font-bold py-4">
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            Home
+            <Link href={"/"}>Home</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            Notícias
+            <Link href={"/noticias"}>Notícias</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            Institucional
+            <Link href={"/"}>Institucional</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            Objetivos
+            <Link href={"/"}>Objetivos</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            ODS e Agenda
+            <Link href={"/agenda"}>ODS e Agenda</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            Mulheres no Sistema
+            <Link href={"/"}>Mulheres no Sistema</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            Desafios Vencidos
+            <Link href={"/desafios"}>Desafios Vencidos</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            Engenheiras
+            <Link href={"/"}>Engenheiras</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            Glossário
+            <Link href={"/glosario"}>Glossário</Link>
           </li>
         </ul>
       </div>
