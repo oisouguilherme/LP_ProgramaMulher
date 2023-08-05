@@ -2,26 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'Fonte1';
+  src: url('../fonts/Intro-Bold-Alt.otf') format('truetype');
+  /* Outras variações da fonte (bold, italic, etc.) podem ser especificadas aqui */
+}
+@font-face {
+  font-family: 'Fonte2';
+  src: url('../fonts/Intro-Bold.otf') format('truetype');
+  /* Outras variações da fonte (bold, italic, etc.) podem ser especificadas aqui */
+}
+@font-face {
+  font-family: 'Fonte3';
+  src: url('../fonts/Intro-Book-Italic.ttf') format('truetype');
+  /* Outras variações da fonte (bold, italic, etc.) podem ser especificadas aqui */
+}
+@font-face {
+  font-family: 'Fonte4';
+  src: url('../fonts/Intro-Book.otf') format('truetype');
+  /* Outras variações da fonte (bold, italic, etc.) podem ser especificadas aqui */
+}
+@font-face {
+  font-family: 'Fonte5';
+  src: url('../fonts/Intro.otf') format('truetype');
+  /* Outras variações da fonte (bold, italic, etc.) podem ser especificadas aqui */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.font-1{
+  font-family: 'Fonte1', sans-serif;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.font-2{
+  font-family: 'Fonte2', sans-serif;
+}
+.font-3{
+  font-family: 'Fonte3', sans-serif;
+}
+.font-4{
+  font-family: 'Fonte4', sans-serif;
+}
+.font-5{
+  font-family: 'Fonte5', sans-serif;
 }
