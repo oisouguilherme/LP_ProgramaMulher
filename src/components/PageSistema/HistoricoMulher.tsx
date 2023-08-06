@@ -1,7 +1,6 @@
 import Image from "next/image";
 import ImagemHistorico from "../../images/PageSistema/historicoMulheres.png";
-import ImageLideranca1 from "../../images/PageSistema/lideranca.png";
-import ImageLideranca2 from "../../images/PageSistema/lideranca2.png";
+import { LiderancaFem } from "./LiderancaFem";
 
 export function HistoricoMulher() {
   return (
@@ -19,11 +18,7 @@ export function HistoricoMulher() {
         />
       </div>
       <div className="max-w-4xl mx-auto px-4 pb-32">
-        <Image
-          src={ImageLideranca1}
-          alt="Lideranças feminias no Sistema na atualidade"
-        />
-        <Image src={ImageLideranca2} alt="Imagem das conselheiras" />
+        <LiderancaFem/>
       </div>
     </div>
   );
