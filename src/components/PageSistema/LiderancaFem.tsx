@@ -10,7 +10,7 @@ import Conselheira7 from "../../images/PageSistema/Conselheiras/7.png";
 export function LiderancaFem() {
   return (
     <div>
-      <div className="grid grid-cols-2 gap-12 text-xl font-4 text-justify text-white pb-12">
+      <div className="grid sm:grid-cols-2 sm:gap-12 text-xl font-4 text-justify text-white pb-12">
         <div>
           <h2 className="text-2xl font-1 pb-8">
             Lideranças femininas no Sistema na atualidade

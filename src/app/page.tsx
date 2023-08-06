@@ -5,7 +5,6 @@ import { DataHora } from "@/components/PageHome/DataHora";
 import { FaleComAGente } from "@/components/PageHome/FaleComAGente";
 import { MulheresRegistradas } from "@/components/PageHome/MulheresRegistradas";
 import { Noticias } from "@/components/PageHome/Noticias";
-import { Footer } from "@/components/Utils/Footer";
 
 
 export default function Home() {

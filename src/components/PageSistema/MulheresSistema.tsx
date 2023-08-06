@@ -4,21 +4,20 @@ import GraficoProfissionais from "../../images/PageSistema/grafico1.png";
 import ImagemBg from "../../images/PageSistema/mulherSistema.png";
 export function MulheresSistema() {
   return (
-    <div className="relative">
-
+    <div className="relative px-4">
       <Image
         src={ImagemBg}
         alt="Imagem de uma mulher engenheira"
-        className="absolute top-52 right-0 w-[450px]"
+        className="absolute top-52 right-0 w-[450px] hidden lg:block -z-10"
       />
 
       <div className="max-w-4xl mx-auto py-32">
         <div>
           <TitlePrincipal title="MULHERES NO SISTEMA" />
-          <div className="h-1 w-96 bg-roxo-300 mt-2" />
+          <div className="h-1 sm:w-96 bg-roxo-300 mt-2" />
         </div>
 
-        <div className="pt-12 space-y-8 text-2xl max-w-2xl text-justify text-cinza-600 font-4">
+        <div className="pt-12 space-y-8 text-lg sm:text-2xl max-w-2xl text-justify text-cinza-600 font-4">
           <p>
             Entre as ações para alcançar os objetivos do Programa Mulher do
             Sistema Confea/Crea e Mútua está a de "Estimular a formulação e

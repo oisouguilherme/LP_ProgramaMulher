@@ -1,155 +1,217 @@
 export function Conselheiras() {
   return (
-    <div className="max-w-4xl mx-auto py-12 text-xl font-4 text-cinza-600">
-      <div className="grid grid-cols-2 gap-32">
+    <div className="max-w-4xl mx-auto py-12 px-4 text-lg sm:text-xl font-4 text-cinza-600">
+      <div className="grid md:grid-cols-2 gap-32">
         <div className="space-y-8">
           <h2 className="font-1 text-2xl">Conselheiras Federais</h2>
           <p>
-            Carmem Eleonôra Cavalcanti Amorim Soares Título profissional:
-            engenheira civil e arquiteta Mandato: 01/01/1992 até 31/12/1994
+            Carmem Eleonôra Cavalcanti Amorim Soares <br />
+            Título profissional: Engenheira civil e arquiteta <br />
+            Mandato: 01/01/1992 até 31/12/1994
+            <br />
             Jurisdição/representação: Estado da Paraíba
           </p>
           <p>
-            Hosmany Rosa Vieira Mandato: 01/01/1994 até 31/12/1996
+            Hosmany Rosa Vieira <br />
+            Mandato: 01/01/1994 até 31/12/1996
+            <br />
+            Jurisdição/representação: Estado de São Paulo
+            <br />
+          </p>
+          <p>
+            Inês Martins de Oliveira Alves <br />
+            Título profissional: engenheira civil
+            <br />
+            Mandato: 01/01/1994 até 31/12/1996 <br />
+            Jurisdição/representação: Estado do Mato Grosso
+          </p>
+          <p>
+            Neuza Maria Trauzzola <br />
+            Título profissional: engenheira civil <br />
+            Mandato: 01/01/1999 até 31/12/1999 <br />
+            Mandato: 01/01/2000 até 31/12/2002
+            <br />
             Jurisdição/representação: Estado de São Paulo
           </p>
           <p>
-            Inês Martins de Oliveira Alves Título profissional: engenheira civil
-            Mandato: 01/01/1994 até 31/12/1996 Jurisdição/representação: Estado
-            do Mato Grosso
+            Darlene Leitão e Silva <br />
+            Título profissional: engenheira eletricista
+            <br />
+            Mandato: 28/04/1999 até 31/12/1999 <br />
+            Mandato: 01/01/2013 até 31/12/2014 <br />
+            Jurisdição/representação: Estado de Roraima
           </p>
           <p>
-            Neuza Maria Trauzzola Título profissional: engenheira civil Mandato:
-            01/01/1999 até 31/12/1999 Mandato: 01/01/2000 até 31/12/2002
-            Jurisdição/representação: Estado de São Paulo
+            Maria de Nazareth de Souza França <br />
+            Título profissional: engenheira civil <br />
+            Mandato: 01/01/2002 até 31/12/2004 <br />
+            Jurisdição/representação: Estado de Rondônia
           </p>
           <p>
-            Darlene Leitão e Silva Título profissional: engenheira eletricista
-            Mandato: 28/04/1999 até 31/12/1999 Mandato: 01/01/2013 até
-            31/12/2014 Jurisdição/representação: Estado de Roraima
+            lara Maria Linhares Nagle <br />
+            Título profissional: engenheira civil
+            <br />
+            Mandato: 01/01/2003 até 31/12/2003
+            <br />
+            Jurisdição/representação: Estado do Rio de Janeiro
           </p>
           <p>
-            Maria de Nazareth de Souza França Título profissional: engenheira
-            civil Mandato: 01/01/2002 até 31/12/2004 Jurisdição/representação:
-            Estado de Rondônia
+            Maria José Balbaki Fettl <br />
+            Título profissional: engenheira mecânica
+            <br />
+            Mandato: 01/01/2003 até 31/12/2005 <br />
+            Jurisdição/representação: Estado do Tocantins
           </p>
           <p>
-            lara Maria Linhares Nagle Título profissional: engenheira civil
-            Mandato: 01/01/2003 até 31/12/2003 Jurisdição/representação: Estado
-            do Rio de Janeiro
-          </p>
-          <p>
-            Maria José Balbaki Fettl Título profissional: engenheira mecânica
-            Mandato: 01/01/2003 até 31/12/2005 Jurisdição/representação: Estado
-            do Tocantins
-          </p>
-          <p>
-            Niiza Luiza Venturini Zamplerl Título profissional: engenheira
-            eletricista Mandato: 01/01/2003 até 31/12/2003
+            Niiza Luiza Venturini Zamplerl <br />
+            Título profissional: engenheira eletricista <br />
+            Mandato: 01/01/2003 até 31/12/2003
+            <br />
             Jurisdição/representação: Estado do Rio Grande do Sul
           </p>
           <p>
-            Maria Higina do Nascimento Título profissional: engenheira agrônoma
-            Mandato: 01/01/2004 até 31/12/2006 Jurisdição/representação: Estado
-            da Bahia
+            Maria Higina do Nascimento <br />
+            Título profissional: engenheira agrônoma
+            <br />
+            Mandato: 01/01/2004 até 31/12/2006 <br />
+            Jurisdição/representação: Estado da Bahia
           </p>
           <p>
-            Ana Constantina Oliveira Sarmento de Azevedo Título profissional:
-            engenheira eletricista Mandato: 01/01/2013 a 31/12/2015
+            Ana Constantina Oliveira Sarmento de Azevedo <br />
+            Título profissional: engenheira eletricista <br />
+            Mandato: 01/01/2013 a 31/12/2015
+            <br />
             Jurisdição/representação: Estado de Alagoas
           </p>
           <p>
-            Andréa Brondani da Rocha Título profissional: engenheira agrônoma
-            Mandato: 01/01/2021 a 31/12/2023 Jurisdição/representação: Estado do
-            Rio Grande do Sul
+            Andréa Brondani da Rocha <br />
+            Título profissional: engenheira agrônoma
+            <br />
+            Mandato: 01/01/2021 a 31/12/2023 <br />
+            Jurisdição/representação: Estado do Rio Grande do Sul
           </p>
           <p>
-            Michele Costa Ramos Título profissional: engenheira mecânica
-            Mandato: 01/1/2021 a 31/12/2023 Jurisdição/representação: Estado da
-            Bahia
+            Michele Costa Ramos <br />
+            Título profissional: engenheira mecânica
+            <br />
+            Mandato: 01/1/2021 a 31/12/2023 <br />
+            Jurisdição/representação: Estado da Bahia
           </p>
         </div>
         <div className="space-y-4">
           <h2 className="font-1 text-2xl">Suplentes</h2>
           <p>
-            Laura Machado Ramos Titulo profissional: engenheira agrônoma
-            Mandato: 01/08/1982 até 31/07/1985 Jurisdição/representação:
-            Distrito Federal
+            Laura Machado Ramos <br />
+            Titulo profissional: engenheira agrônoma
+            <br />
+            Mandato: 01/08/1982 até 31/07/1985 <br />
+            Jurisdição/representação: Distrito Federal
           </p>
           <p>
-            Maria Cristina de Sá Oliveira Matos Brito Titulo profissional:
-            engenheira civil Mandato: 01/01/1995 até 31/12/1997
+            Maria Cristina de Sá Oliveira Matos Brito <br />
+            Titulo profissional: engenheira civil <br />
+            Mandato: 01/01/1995 até 31/12/1997
+            <br />
             Jurisdição/representação: Estado de Minas Gerais
           </p>
           <p>
-            Márcia Cristina Luna Titulo profissional: engenheira civil Mandato:
-            01/01/2002 até 31/12/2004 Jurisdição/representação: Estado de
-            Rondônia
+            Márcia Cristina Luna <br />
+            Titulo profissional: engenheira civil <br />
+            Mandato: 01/01/2002 até 31/12/2004 <br />
+            Jurisdição/representação: Estado de Rondônia
           </p>
           <p>
-            Lorena de Araújo ielo Titulo profissional: engenheira agrônoma
-            Mandato: 01/01/2004 até 31/12/2006 Jurisdição/representação: Estado
-            da Bahia
-          </p>
-          <p>
-            Sandra Maria Lopes Raposo Título profissional: engenheira civil
-            Mandato: 01/1/2010 a 31/12/2012 Jurisdição/representação: Estado do
-            Amazonas
-          </p>
-          <p>
-            Terêsa Cristina Bahiense de Sousa Título profissional: engenheira
-            eletricista Mandato: 01/1/2010 a 31/12/2012
+            Lorena de Araújo ielo <br />
+            Titulo profissional: engenheira agrônoma
+            <br />
+            Mandato: 01/01/2004 até 31/12/2006 <br />
             Jurisdição/representação: Estado da Bahia
           </p>
           <p>
-            Michelle Calado Palladino Título profissional: engenheira
+            Sandra Maria Lopes Raposo <br />
+            Título profissional: engenheira civil
+            <br />
+            Mandato: 01/1/2010 a 31/12/2012 <br />
+            Jurisdição/representação: Estado do Amazonas
+          </p>
+          <p>
+            Terêsa Cristina Bahiense de Sousa <br />
+            Título profissional: engenheira
+            <br />
+            eletricista Mandato: 01/1/2010 a 31/12/2012
+            <br />
+            Jurisdição/representação: Estado da Bahia
+          </p>
+          <p>
+            Michelle Calado Palladino <br />
+            Título profissional: engenheira
+            <br />
             eletricista Mandato: 01/1/2013 a 31/12/2015
+            <br />
             Jurisdição/representação: Estado de Alagoas
           </p>
           <p>
-            Enid Brandão Cameiro Drumond Título profissional: engenheira civil
+            Enid Brandão Cameiro Drumond <br />
+            Título profissional: engenheira civil
+            <br />
             Mandato: 01/1/2015 a 31/12/2017
           </p>
           <p>
-            Ivanilde Soares Santos Título profissional: engenheira agrônoma
-            Mandato: 0/1/2016 a 31/12/2018 Jurisdição/representação: Maranhão
+            Ivanilde Soares Santos <br />
+            Título profissional: engenheira agrônoma
+            <br />
+            Mandato: 0/1/2016 a 31/12/2018 <br />
+            Jurisdição/representação: Maranhão
           </p>
           <p>
             Alzira Miranda Oliveira Titulo profissional: engenheira de pesca
-            Mandato: 01/1/2020 a 31/12/2022 Jurisdição/representação: Amazonas
+            <br />
+            Mandato: 01/1/2020 a 31/12/2022 <br />
+            Jurisdição/representação: Amazonas
           </p>
           <p>
-            Marcia Helena Laino Título profissional: engenheira agrônoma
-            Mandato: 01/1/2021 a 31/12/2023 Jurisdição/representação: Estado do
-            Paraná
+            Marcia Helena Laino <br />
+            Título profissional: engenheira agrônoma
+            <br />
+            Mandato: 01/1/2021 a 31/12/2023 <br />
+            Jurisdição/representação: Estado do Paraná
           </p>
           <p>
-            Marjorie Csekó Nolasco | Título profissional: geél Mandato:
-            01/1/2021 a 12/2025 Jurisdição/representação: Estado da Bahia
+            Marjorie Csekó Nolasco <br />
+            Título profissional: geél <br />
+            Mandato: 01/1/2021 a 12/2025 <br />
+            Jurisdição/representação: Estado da Bahia
           </p>
 
           <h2 className="font-1 text-2xl">Representantes Estaduais</h2>
           <p>
-            Iracema de Olveira Moraes Título profissional: engenheira de
-            alimentos: Jurisdição/representação: Estado de São Paulo
+            Iracema de Olveira Moraes <br />
+            Título profissional: engenheira de alimentos <br />
+            Jurisdição/representação: Estado de São Paulo
           </p>
           <p>
-            Antoria Tenório de Melo Lameiras Título profissional: Mandato:
-            1/0/1991 até 31/12/1971 Jurisdição/representação: Estado de Alagoas
+            Antoria Tenório de Melo Lameiras <br />
+            Título profissional: <br />
+            Mandato: 1/0/1991 até 31/12/1971 <br />
+            Jurisdição/representação: Estado de Alagoas
           </p>
           <p>
-            Encida Vieira da Silva Ostra de Canedo Título profissional: geógr
-            Mandato: 15/03/1992 até 3V12/1992 Jurisdição/representação: Estado
-            do Maranhão
+            Encida Vieira da Silva Ostra de Canedo <br />
+            Título profissional: geógr
+            <br />
+            Mandato: 15/03/1992 até 3V12/1992 <br />
+            Jurisdição/representação: Estado do Maranhão
           </p>
           <p>
-            Maria de Nasaré Bona de Alencar Araripe Título profissional:
-            engenheira de pesca fandato: 01/01/1991 até 31/12/1991
+            Maria de Nasaré Bona de Alencar Araripe <br />
+            Título profissional: engenheira de pesca <br />
+            Mandato: 01/01/1991 até 31/12/1991
+            <br />
             Jurisdição/representação: Estado do Piauí
           </p>
         </div>
       </div>
-      <div className="max-w-xl text-xl font-4 text-justify py-12">
+      <div className="max-w-xl text-lg sm:text-xl font-4 text-justify py-12">
         <p className="text-azul-500 font-1">b) Presidentes de Creas</p>
         <p>
           Ao recapitular a história da participação feminina, o Rio Grande do

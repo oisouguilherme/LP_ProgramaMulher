@@ -2,12 +2,12 @@ import { LinhaTable } from "./LinhaTable";
 
 export function Tabela() {
   return (
-    <div className="bg-[url('/bgPontos.png')] bg-cover py-32">
+    <div className="bg-[url('/bgPontos.png')] bg-cover py-32 px-4">
       <div className="max-w-4xl mx-auto">
-        <table className="w-full text-start text-lg font-4 text-white">
+        <table className="w-full text-center text-sm sm:text-start sm:text-lg font-4 text-white">
           <tr className="bg-azul-300">
             <th>Regiao</th>
-            <th className="border-x-2 px-12">Crea</th>
+            <th className="border-x-2 px-2 sm:px-12">Crea</th>
             <th>Nome</th>
           </tr>
 

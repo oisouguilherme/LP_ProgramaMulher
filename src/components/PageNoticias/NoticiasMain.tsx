@@ -11,8 +11,8 @@ import { CardNoticia } from "../Utils/CardNoticia";
 
 export function NoticiasMain() {
   return (
-    <div className="max-w-4xl mx-auto py-24">
-      <div className="flex justify-between">
+    <div className="max-w-4xl mx-auto py-24 px-4">
+      <div className="flex flex-wrap gap-4 justify-end sm:justify-between">
         <div className="w-fit flex flex-col gap-4">
           <Image src={Title} alt="Noticias" className="w-72" />
           <div className="h-1 bg-[url('/bgMain.png')] bg-center" />
@@ -31,18 +31,18 @@ export function NoticiasMain() {
             alt="Imagem da noticia logo abaixo"
             className="w-full"
           />
-          <p className="text=white px-12 py-8 text-white font-4 text-4xl">
+          <p className="p-4 sm:px-12 sm:py-8 text-white font-4 text-lg sm:text-4xl">
             <span className="font-1">Programa Mulher</span> será apresentado nos
             Congressos Estaduais de Profissionais
           </p>
         </div>
       </div>
 
-      <CardNoticia image={ImageNoticia} data="30 de março - 13h"/>
-      <CardNoticia image={ImageNoticia2} data="30 de março - 13h"/>
-      <CardNoticia image={ImageNoticia3} data="30 de março - 13h"/>
-      <CardNoticia image={ImageNoticia4} data="30 de março - 13h"/>
-      <CardNoticia image={ImageNoticia2} data="30 de março - 13h"/>
+      <CardNoticia image={ImageNoticia} data="30 de março - 13h" />
+      <CardNoticia image={ImageNoticia2} data="30 de março - 13h" />
+      <CardNoticia image={ImageNoticia3} data="30 de março - 13h" />
+      <CardNoticia image={ImageNoticia4} data="30 de março - 13h" />
+      <CardNoticia image={ImageNoticia2} data="30 de março - 13h" />
     </div>
   );
 }

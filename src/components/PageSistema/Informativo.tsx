@@ -18,7 +18,7 @@ import BgMulher from "../../images/PageSistema/mulherSistema2.png";
 export function Informativo() {
   return (
     <div className="relative">
-      <div className="max-w-4xl mx-auto py-32">
+      <div className="max-w-4xl mx-auto py-32 px-4">
         <Image
           src={Grafico3}
           alt="Grafico de conselherias nos Creas por Regiao"
@@ -29,7 +29,7 @@ export function Informativo() {
           <Image
             src={BgMulher}
             alt="Mulher no background engenheira"
-            className="absolute -z-10 right-0 w-96"
+            className="absolute -z-10 right-0 w-96 hidden lg:block"
           />
           <p className="text-azul-500 font-1">c) Presidente de Creas</p>
           <p>

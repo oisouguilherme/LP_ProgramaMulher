@@ -3,13 +3,13 @@ import Gestor1 from "../../images/PageInstitucional/1.png";
 export function ProgramaMulher() {
   return (
     <div className="bg-[url('/bgPontos.png')] bg-cover">
-      <div className="max-w-4xl mx-auto py-32">
-        <div className="text-white font-1 flex justify-center items-center">
-          <h2 className="text-6xl">Comitê Gestor do Programa Mulher</h2>
-          <h2 className="text-9xl">2023</h2>
+      <div className="max-w-4xl mx-auto py-32 px-4">
+        <div className="text-white font-1 flex flex-col sm:flex-row justify-center items-center">
+          <h2 className=" text-4xl sm:text-5xl md:text-6xl">Comitê Gestor do Programa Mulher</h2>
+          <h2 className="text-5xl sm:text-6xl md:text-9xl">2023</h2>
         </div>
 
-        <div className="py-12 space-y-4">
+        <div className="py-12 space-y-8">
           <CardGestor
             image={Gestor1}
             nome="Presidente do Confea"

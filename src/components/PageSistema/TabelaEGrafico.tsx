@@ -3,7 +3,7 @@ import GraficoRepresentacao from "../../images/PageSistema/tabela1.png";
 import GraficoRegional from "../../images/PageSistema/grafico2.png";
 export function TabelaEGrafico() {
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-4xl mx-auto px-4">
       <div className="max-w-xl text-xl font-4 text-justify">
         <p className="text-azul-500 font-1">
           a) Representação: total de Inscritas por Estado
@@ -32,7 +32,7 @@ export function TabelaEGrafico() {
       />
 
       <div className="text-xl font-4 text-cinza-600 max-w-xl text-justify py-12">
-        <p className="font-1 text-2xl pb-4">
+        <p className="font-1 text-xl sm:text-2xl pb-4">
           Histórico da atuação feminina no Sistema
         </p>
         <p className="text-azul-500 font-1">a) Conselheiras</p>
