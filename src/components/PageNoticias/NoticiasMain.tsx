@@ -12,7 +12,7 @@ import { CardNoticia } from "../Utils/CardNoticia";
 export function NoticiasMain() {
   return (
     <div className="max-w-4xl mx-auto py-24 px-4">
-      <div className="flex flex-wrap gap-4 justify-end sm:justify-between">
+      <div className="flex flex-wrap gap-4 sm:justify-between">
         <div className="w-fit flex flex-col gap-4">
           <Image src={Title} alt="Noticias" className="w-72" />
           <div className="h-1 bg-[url('/bgMain.png')] bg-center" />

@@ -1,58 +1,50 @@
-import { BiSearch } from "react-icons/bi";
-import Logo from "../../images/PageHome/logo.png";
-import Image from "next/image";
 import Link from "next/link";
-import { Button } from "./BotaoMenu/Button";
 
-export function Header() {
+const Modal = ({ isOpen, onClose }: any) => {
+  if (!isOpen) return null;
+
   return (
-    <>
-      <div className="bg-[url('/bgMain.png')] bg-center">
-        <div className="max-w-6xl mx-auto px-2 sm:px-8 text-white">
-          <div className="flex justify-between items-center py-8">
-            <Button/>
-
-            <Image src={Logo} alt="Logo Programa Mulher" />
-
-            <div className="md:flex items-center gap-4 font-bold border-2 py-2 px-3 rounded-xl hidden ">
-              <p>BUSCA</p>
-              <BiSearch size={32} />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="bg-white hidden lg:block">
-        <ul className="text-[#450081] uppercase flex max-w-6xl mx-auto justify-between font-bold py-4">
+    <div className="fixed inset-0 flex items-center justify-center z-50">
+      <div className="fixed inset-0 bg-gray-900 opacity-50" onClick={onClose}></div>
+      <div className="bg-white p-8 rounded-md z-10 relative">
+        <ul className="text-roxo-600 uppercase flex flex-col font-4 py-4">
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/"}>Home</Link>
+            <Link onClick={onClose} href={"/"}>Home</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/noticias"}>Notícias</Link>
+            <Link onClick={onClose} href={"/noticias"}>Notícias</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/institucional"}>Institucional</Link>
+            <Link onClick={onClose} href={"/institucional"}>Institucional</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/objetivos"}>Objetivos</Link>
+            <Link onClick={onClose} href={"/objetivos"}>Objetivos</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/agenda"}>ODS e Agenda</Link>
+            <Link onClick={onClose} href={"/agenda"}>ODS e Agenda</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/sistema"}>Mulheres no Sistema</Link>
+            <Link onClick={onClose} href={"/sistema"}>Mulheres no Sistema</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/desafios"}>Desafios Vencidos</Link>
+            <Link onClick={onClose} href={"/desafios"}>Desafios Vencidos</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/engenheiras"}>Engenheiras</Link>
+            <Link onClick={onClose} href={"/engenheiras"}>Engenheiras</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/glosario"}>Glossário</Link>
+            <Link onClick={onClose} href={"/glosario"}>Glossário</Link>
           </li>
         </ul>
+        <button
+          className=" text-black absolute top-4 right-6 text-xl"
+          onClick={onClose}
+        >
+          X
+        </button>
       </div>
-    </>
+    </div>
   );
-}
+};
+
+export default Modal;
