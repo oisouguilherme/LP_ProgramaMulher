@@ -8,16 +8,6 @@
   /* Outras variações da fonte (bold, italic, etc.) podem ser especificadas aqui */
 }
 @font-face {
-  font-family: 'Fonte2';
-  src: url('../fonts/Intro-Bold.otf') format('truetype');
-  /* Outras variações da fonte (bold, italic, etc.) podem ser especificadas aqui */
-}
-@font-face {
-  font-family: 'Fonte3';
-  src: url('../fonts/Intro-Book-Italic.ttf') format('truetype');
-  /* Outras variações da fonte (bold, italic, etc.) podem ser especificadas aqui */
-}
-@font-face {
   font-family: 'Fonte4';
   src: url('../fonts/Intro-Book.otf') format('truetype');
   /* Outras variações da fonte (bold, italic, etc.) podem ser especificadas aqui */
@@ -30,12 +20,6 @@
 
 .font-1{
   font-family: 'Fonte1', sans-serif;
-}
-.font-2{
-  font-family: 'Fonte2', sans-serif;
-}
-.font-3{
-  font-family: 'Fonte3', sans-serif;
 }
 .font-4{
   font-family: 'Fonte4', sans-serif;
