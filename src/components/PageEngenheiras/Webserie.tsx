@@ -10,16 +10,16 @@ import Play from "../../images/PageEngenharia/play.png";
 export function Webserie() {
   return (
     <div className="bg-[url('/bgSecond.png')] bg-cover">
-      <div className="max-w-3xl mx-auto py-32">
+      <div className="max-w-3xl mx-auto py-32 px-4">
         <div className="flex justify-between items-center text-white">
-          <h2 className="text-7xl font-1">WEBSÉRIE</h2>
+          <h2 className="text-4xl sm:text-7xl font-1">WEBSÉRIE</h2>
           <AiOutlineShareAlt size={24} />
         </div>
 
         <Image
           src={BannerSerie}
           alt="CLique aqui para reproduzir o video"
-          className="py-32"
+          className="py-12 sm:py-32"
         />
 
         <div>

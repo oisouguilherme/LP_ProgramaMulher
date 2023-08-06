@@ -1,12 +1,14 @@
+import { TitlePrincipal } from "../Utils/TitlePrincipal";
+
 export function MainText() {
   return (
-    <div className="max-w-2xl mx-auto py-32 text-justify">
+    <div className="max-w-2xl mx-auto py-32 text-justify px-4">
       <div className="flex flex-col gap-2">
-        <h2 className="text-7xl text-roxo-400 font-1">GLOSSÁRIO</h2>
-        <div className="h-1 w-96 bg-roxo-400"></div>
+        <TitlePrincipal title="GLOSSÁRIO"/>
+        <div className="h-1 sm:w-96 bg-roxo-400"></div>
       </div>
 
-      <div className="text-2xl font-4 py-12 space-y-8 text-roxo-300">
+      <div className="text-xl sm:text-2xl font-4 py-12 space-y-8 text-roxo-300">
         <p>
           De acordo com a Lei nº 11.340, também conhecida como Lei Maria da
           Penha, a violência psicológica é considerada qualquer ação que cause
@@ -32,7 +34,7 @@ export function MainText() {
         </p>
       </div>
 
-      <div className="text-2xl text-cinza-600 font-4 space-y-12">
+      <div className="text-xl sm:text-2xltext-2xl text-cinza-600 font-4 space-y-12">
         <div>
           <h2 className="text-3xl text-roxo-600 pb-8">Bropriating</h2>
           <p>

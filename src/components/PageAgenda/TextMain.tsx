@@ -1,15 +1,16 @@
 import Image from "next/image";
 import IconObj from "../../images/PageAgenda/objetivo.png";
 import IconGenero from "../../images/PageAgenda/icon.png";
+import { TitlePrincipal } from "../Utils/TitlePrincipal";
 export function TextMain() {
   return (
-    <div className="max-w-3xl mx-auto py-32">
+    <div className="max-w-3xl mx-auto py-32 px-4">
       <div className="flex flex-col gap-2">
-        <h2 className="text-7xl font-1 text-roxo-400">ODS E AGENDA</h2>
-        <div className="h-1 w-80 bg-roxo-400"></div>
+        <TitlePrincipal title="ODS E AGENDA" />
+        <div className="h-1 sm:w-80 bg-roxo-400"></div>
       </div>
 
-      <p className="text-2xl text-azul-400 font-4 py-8 text-justify">
+      <p className="text-xl sm:text-2xl text-azul-400 font-4 py-8 text-justify">
         Desde 2012, a Organização das Nações Unidas faz um esforço global para
         implementar nos governos, empresas e sociedade os 17 objetivos de
         Desenvolvimento Sustentável (ODS). instituídos pelo Organismo com a
@@ -21,7 +22,7 @@ export function TextMain() {
       </p>
 
       <Image src={IconObj} alt="Objetivos sustentaveis" />
-      <p className="py-8 text-2xl text-roxo-600 text-justify">
+      <p className="py-8 text-xl sm:text-2xl text-roxo-600 text-justify">
         De acordo com o site da ONU Mulheres, a Agenda 2030 é um Plano de Ação
         que busca fortalecer a paz universal com mais liberdade e reconhece que
         a erradicação da pobreza em todas as suas formas e dimensões, incluindo
@@ -37,55 +38,55 @@ export function TextMain() {
         2030 sustentável.
       </p>
 
-      <p className="text-2xl text-gray-600">
+      <p className="text-xl sm:text-2xl text-gray-600">
         Objetivo 5 - Igualdade ed Gênero: Alcançar a igualdade de gênero e
         empoderar todas as mulheres e meninas
       </p>
 
       <p className="text-xl pt-8">Metas do ODS N° 5</p>
 
-      <div className="text-xl flex flex-col gap-8 py-4">
-        <div className="flex">
+      <div className="text-sm sm:text-xl flex flex-col gap-8 py-4">
+        <div className="flex items-center justify-center bg-gray-200">
           <Image
             src={IconGenero}
             alt="Icone de Igualdade de Genero"
-            className="w-32 h-fit"
+            className="w-12 sm:w-32 h-fit pl-2"
           />
-          <p className="px-8 py-4 bg-gray-200 text-gray-800">
+          <p className="px-4 sm:px-8 py-4  text-gray-800">
             5.1- Acabar com todas as formas de discriminação contra todas as
             mulheres e meninas em todas as partes.
           </p>
         </div>
-        <div className="flex">
+        <div className="flex items-center justify-center bg-gray-200">
           <Image
             src={IconGenero}
             alt="Icone de Igualdade de Genero"
-            className="w-32 h-fit"
+            className="w-12 sm:w-32 h-fit pl-2"
           />
-          <p className="px-8 py-4 bg-gray-200 text-gray-800">
+          <p className="px-4 sm:px-8 py-4  text-gray-800">
             5.2- Eliminar todas as formas de violência contra todas as mulheres
             e meninas nasesferas públicas e privadas, incluindo otráfico e
             exploração sexual e de outros tipos.
           </p>
         </div>
-        <div className="flex">
+        <div className="flex items-center justify-center bg-gray-200">
           <Image
             src={IconGenero}
             alt="Icone de Igualdade de Genero"
-            className="w-32 h-fit"
+            className="w-12 sm:w-32 h-fit pl-2"
           />
-          <p className="px-8 py-4 bg-gray-200 text-gray-800">
+          <p className="px-4 sm:px-8 py-4  text-gray-800">
             5.3- Eliminar todas as práticas nocivas, como os casamentos
             prematuros, forçados e de crianças, e mutilações genitais femininas.
           </p>
         </div>
-        <div className="flex">
+        <div className="flex items-center justify-center bg-gray-200">
           <Image
             src={IconGenero}
             alt="Icone de Igualdade de Genero"
-            className="w-32 h-fit"
+            className="w-12 sm:w-32 h-fit pl-2"
           />
-          <p className="px-8 py-4 bg-gray-200 text-gray-800">
+          <p className="px-4 sm:px-8 py-4  text-gray-800">
             5.4- Reconhecer e valorizar o trabalho de assistência e doméstico
             não remunerado, por meio da disponibilização de serviços públicos,
             infraestrutura e políticas de proteção social, bem como a promoção
@@ -93,23 +94,23 @@ export function TextMain() {
             conforme os contextos nacionais.
           </p>
         </div>
-        <div className="flex">
+        <div className="flex items-center justify-center bg-gray-200">
           <Image
             src={IconGenero}
             alt="Icone de Igualdade de Genero"
-            className="w-32 h-fit"
+            className="w-12 sm:w-32 h-fit pl-2"
           />
-          <p className="px-8 py-4 bg-gray-200 text-gray-800">
+          <p className="px-4 sm:px-8 py-4  text-gray-800">
             5.5-Garantir a participação plena e efetiva das mulheres e a
             igualdade de oportunidades para a liderança em todos os níveis de
             tomada de decisão navida política, econômica e pública.
           </p>
         </div>
-        <div className="flex">
+        <div className="flex flex-col sm:flex-row items-center sm:items-start justify-center">
           <Image
             src={IconGenero}
             alt="Icone de Igualdade de Genero"
-            className="w-32 h-fit"
+            className="w-12 sm:w-32 h-fit pl-2 hidden sm:block"
           />
           <div className="flex flex-col gap-4">
             <p className="px-8 py-4 bg-gray-200 text-gray-800 ">
@@ -140,7 +141,7 @@ export function TextMain() {
         </div>
       </div>
 
-      <p className="text-2xl text-gray-700 pt-8 text-justify">
+      <p className="text-xl sm:text-2xl text-gray-700 pt-8 text-justify">
         O Sistema Confea/Crea, ao se aliar aos compromissos de igualdade de
         gênero da Agenda 2030, busca ser um agente para se alcançar o objetivo
         de uma sociedade em que as mulheres tenham as mesmas oportunidades e
