@@ -24,14 +24,24 @@ export function Noticias() {
             className="w-full"
           />
           <p className="text=white p-4 sm:px-12 sm:py-8 text-white font-4 text-lg sm:text-4xl">
-            <span className="font-1">Programa Mulher</span> será apresentado nos Congressos Estaduais de Profissionais
+            <span className="font-1">Programa Mulher</span> será apresentado nos
+            Congressos Estaduais de Profissionais
           </p>
         </div>
       </div>
 
-      <CardNoticia image={ImageNoticia} />
-      <CardNoticia image={ImageNoticia2} />
-      <CardNoticia image={ImageNoticia3} />
+      <CardNoticia
+        image={ImageNoticia}
+        text="Reunião virtual apresenta cenários do Programa Mulher na região Nordeste"
+      />
+      <CardNoticia
+        image={ImageNoticia2}
+        text="Regionais compartilham experiências do Programa Mulher"
+      />
+      <CardNoticia
+        image={ImageNoticia3}
+        text="Empreendedorismo marca propostas do Programa Mulher do Centro-Oeste"
+      />
     </div>
   );
 }

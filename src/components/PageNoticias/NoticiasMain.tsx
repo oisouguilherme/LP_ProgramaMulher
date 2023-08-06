@@ -38,11 +38,36 @@ export function NoticiasMain() {
         </div>
       </div>
 
-      <CardNoticia image={ImageNoticia} data="30 de março - 13h" />
-      <CardNoticia image={ImageNoticia2} data="30 de março - 13h" />
-      <CardNoticia image={ImageNoticia3} data="30 de março - 13h" />
-      <CardNoticia image={ImageNoticia4} data="30 de março - 13h" />
-      <CardNoticia image={ImageNoticia2} data="30 de março - 13h" />
+      <CardNoticia
+        image={ImageNoticia3}
+        data="30 de março - 13h"
+        text="Reunião virtual apresenta cenários do Programa Mulher na região Nordeste"
+      />
+      <CardNoticia
+        image={ImageNoticia2}
+        data="30 de março - 13h"
+        text="Regionais compartilham experiências do Programa Mulher"
+      />
+      <CardNoticia
+        image={ImageNoticia}
+        data="30 de março - 13h"
+        text="Empreendedorismo marca propostas do Programa Mulher do Centro-Oeste"
+      />
+      <CardNoticia
+        image={ImageNoticia4}
+        data="30 de março - 13h"
+        text="Regionais compartilham experiências do Programa Mulher"
+      />
+      <CardNoticia
+        image={ImageNoticia3}
+        data="30 de março - 13h"
+        text="Empreendedorismo marca propostas do Programa Mulher do Centro-Oeste"
+      />
+      <CardNoticia
+        image={ImageNoticia2}
+        data="30 de março - 13h"
+        text="Empreendedorismo marca propostas do Programa Mulher do Centro-Oeste"
+      />
     </div>
   );
 }

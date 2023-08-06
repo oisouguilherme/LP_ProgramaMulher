@@ -1,5 +1,13 @@
 import { CardGestor } from "./CardGestor";
 import Gestor1 from "../../images/PageInstitucional/1.png";
+import Gestor2 from "../../images/PageInstitucional/2.png";
+import Gestor3 from "../../images/PageInstitucional/3.png";
+import Gestor4 from "../../images/PageInstitucional/4.png";
+import Gestor5 from "../../images/PageInstitucional/5.png";
+import Gestor6 from "../../images/PageInstitucional/6.png";
+import Gestor7 from "../../images/PageInstitucional/7.png";
+import Gestor8 from "../../images/PageInstitucional/8.png";
+
 export function ProgramaMulher() {
   return (
     <div className="bg-[url('/bgPontos.png')] bg-cover">
@@ -11,37 +19,37 @@ export function ProgramaMulher() {
 
         <div className="py-12 space-y-8">
           <CardGestor
-            image={Gestor1}
+            image={Gestor8}
             nome="Presidente do Confea"
             cargo="Eng. Civ. Joel Kruger"
           />
           <CardGestor
-            image={Gestor1}
+            image={Gestor7}
             nome="Conselheira Federal representante do Plenário"
             cargo="Eng. Mec. Michele Costa Ramos"
           />
           <CardGestor
-            image={Gestor1}
+            image={Gestor6}
             nome="Gerente de Relacionamentos Institucionais"
             cargo="Eng. Amb. Renato Muzzolon Júnior"
           />
           <CardGestor
-            image={Gestor1}
+            image={Gestor5}
             nome="Representante do Colégio de Presidentes do Sistema Confea/Crea"
             cargo="Eng. Civ. Carmem Bastos Nardino"
           />
           <CardGestor
-            image={Gestor1}
+            image={Gestor4}
             nome="Representante das Coordenadorias de Câmaras Especializadas"
             cargo="Eng. Quim. Marino José Greco"
           />
           <CardGestor
-            image={Gestor1}
+            image={Gestor3}
             nome="Representante do Colégio de Entidades Nacionais"
             cargo="Eng. Amb. Liane de Moura Fernandes Costa"
           />
           <CardGestor
-            image={Gestor1}
+            image={Gestor2}
             nome="Assessora do Gabinete"
             cargo="Eng. Civ. Mariana Mayara de Souza Costa"
           />

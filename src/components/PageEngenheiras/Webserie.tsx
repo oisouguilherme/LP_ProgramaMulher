@@ -5,8 +5,6 @@ import Video1 from "../../images/PageEngenharia/video1.png";
 import Video2 from "../../images/PageEngenharia/video2.png";
 import Video3 from "../../images/PageEngenharia/video3.png";
 
-import Play from "../../images/PageEngenharia/play.png";
-
 export function Webserie() {
   return (
     <div className="bg-[url('/bgSecond.png')] bg-cover">
@@ -19,20 +17,17 @@ export function Webserie() {
         <Image
           src={BannerSerie}
           alt="CLique aqui para reproduzir o video"
-          className="py-12 sm:py-32"
+          className="py-12 sm:py-32 hover:scale-105 cursor-pointer duration-300"
         />
 
         <div>
-          <div className="flex gap-8">
+          <div className="flex flex-col sm:flex-row gap-8">
             <div className="relative">
               <Image
                 src={Video1}
                 alt="Assistir proximo video"
-                className="w-full"
+                className="w-full hover:scale-105 cursor-pointer duration-300"
               />
-              <div className="bg-roxo-600 w-16 h-16 flex items-center justify-center pl-2 rounded-full border absolute top-12 left-20">
-                <Image src={Play} alt="Play de Video" />
-              </div>
               <p className="text-white font-4 text-lg text-center pt-2">
                 Próximo <span className="font-1">Episódio</span>
               </p>
@@ -40,27 +35,22 @@ export function Webserie() {
 
             <div className="relative">
               <Image
-                src={Video1}
+                src={Video2}
                 alt="Assistir proximo video"
-                className="w-full"
+                className="w-full hover:scale-105 cursor-pointer duration-300"
               />
-              <div className="bg-roxo-600 w-16 h-16 flex items-center justify-center pl-2 rounded-full border absolute top-12 left-20">
-                <Image src={Play} alt="Play de Video" />
-              </div>
               <p className="text-white font-4 text-lg text-center pt-2">
                 Próximo <span className="font-1">Episódio</span>
               </p>
             </div>
 
             <div className="relative">
+
               <Image
-                src={Video1}
+                src={Video3}
                 alt="Assistir proximo video"
-                className="w-full"
+                className="w-full hover:scale-105 cursor-pointer duration-300"
               />
-              <div className="bg-roxo-600 w-16 h-16 flex items-center justify-center pl-2 rounded-full border absolute top-12 left-20">
-                <Image src={Play} alt="Play de Video" />
-              </div>
               <p className="text-white font-4 text-lg text-center pt-2">
                 Próximo <span className="font-1">Episódio</span>
               </p>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function CardNoticia({ image, data }: any) {
+export function CardNoticia({ image, data, text }: any) {
   return (
     <div className="mt-32 grid md:grid-cols-2 gap-2 sm:gap-8 items-center">
       <div className="relative">
@@ -12,8 +12,7 @@ export function CardNoticia({ image, data }: any) {
       <div className="text-lg sm:text-3xl font-4 text-[#590d90]">
         <p className="text-gray-700 text-lg sm:text-2xl">{data}</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
-          exercitationem.
+          {text}
         </p>
       </div>
     </div>
