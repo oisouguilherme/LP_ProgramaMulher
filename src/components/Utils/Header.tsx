@@ -32,22 +32,22 @@ export function Header() {
             <Link href={"/noticias"}>Notícias</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/"}>Institucional</Link>
+            <Link href={"/institucional"}>Institucional</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/"}>Objetivos</Link>
+            <Link href={"/objetivos"}>Objetivos</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
             <Link href={"/agenda"}>ODS e Agenda</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/"}>Mulheres no Sistema</Link>
+            <Link href={"/sistema"}>Mulheres no Sistema</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
             <Link href={"/desafios"}>Desafios Vencidos</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/"}>Engenheiras</Link>
+            <Link href={"/engenheiras"}>Engenheiras</Link>
           </li>
           <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
             <Link href={"/glosario"}>Glossário</Link>
