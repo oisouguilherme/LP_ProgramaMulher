@@ -1,8 +1,9 @@
-import { BiSearch } from "react-icons/bi";
-import Logo from "../../images/PageHome/logo.png";
-import Image from "next/image";
-import Link from "next/link";
 import { Button } from "./BotaoMenu/Button";
+import { HeaderLink } from "./HeaderLink";
+import { BiSearch } from "react-icons/bi";
+
+import Image from "next/image";
+import Logo from "../../images/PageHome/logo.png";
 
 export function Header() {
   return (
@@ -10,7 +11,7 @@ export function Header() {
       <div className="bg-[url('/bgMain.png')] bg-center">
         <div className="max-w-6xl mx-auto px-2 sm:px-8 text-white">
           <div className="flex justify-between items-center py-8">
-            <Button/>
+            <Button />
 
             <Image src={Logo} alt="Logo Programa Mulher" />
 
@@ -23,34 +24,16 @@ export function Header() {
       </div>
 
       <div className="bg-white hidden lg:block">
-        <ul className="text-[#450081] uppercase flex max-w-6xl mx-auto justify-between font-bold py-4">
-          <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/"}>Home</Link>
-          </li>
-          <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/noticias"}>Notícias</Link>
-          </li>
-          <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/institucional"}>Institucional</Link>
-          </li>
-          <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/objetivos"}>Objetivos</Link>
-          </li>
-          <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/agenda"}>ODS e Agenda</Link>
-          </li>
-          <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/sistema"}>Mulheres no Sistema</Link>
-          </li>
-          <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/desafios"}>Desafios Vencidos</Link>
-          </li>
-          <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/engenheiras"}>Engenheiras</Link>
-          </li>
-          <li className="hover:text-[#ff00ff] cursor-pointer border-b border-white border-2 hover:border-b-[#ff00ff] hover:border-2 duration-200">
-            <Link href={"/glosario"}>Glossário</Link>
-          </li>
+        <ul className="text-roxo-600 uppercase flex max-w-6xl mx-auto justify-between font-bold py-4">
+          <HeaderLink link="/" page="Home" />
+          <HeaderLink link="/noticias" page="Notícias" />
+          <HeaderLink link="/institucional" page="Institucional" />
+          <HeaderLink link="/objetivos" page="Objetivos" />
+          <HeaderLink link="/agenda" page="ODS e Agenda" />
+          <HeaderLink link="/sistema" page="Mulheres no Sistema" />
+          <HeaderLink link="/desafios" page="Desafios Vencidos" />
+          <HeaderLink link="/engenheiras" page="Engenheiras" />
+          <HeaderLink link="/glosario" page="Glossário" />
         </ul>
       </div>
     </>

@@ -2,6 +2,8 @@ import Image from "next/image";
 import IconObj from "../../images/PageAgenda/objetivo.png";
 import IconGenero from "../../images/PageAgenda/icon.png";
 import { TitlePrincipal } from "../Utils/TitlePrincipal";
+import { CardMeta } from "./CardMeta";
+
 export function TextMain() {
   return (
     <div className="max-w-3xl mx-auto py-32 px-4">
@@ -46,93 +48,43 @@ export function TextMain() {
       <p className="text-xl pt-8">Metas do ODS N° 5</p>
 
       <div className="text-sm sm:text-xl flex flex-col gap-8 py-4">
-        <div className="flex items-center justify-center bg-gray-200">
-          <Image
-            src={IconGenero}
-            alt="Icone de Igualdade de Genero"
-            className="w-12 sm:w-32 h-fit pl-2"
-          />
-          <p className="px-4 sm:px-8 py-4  text-gray-800">
-            5.1- Acabar com todas as formas de discriminação contra todas as
-            mulheres e meninas em todas as partes.
-          </p>
-        </div>
-        <div className="flex items-center justify-center bg-gray-200">
-          <Image
-            src={IconGenero}
-            alt="Icone de Igualdade de Genero"
-            className="w-12 sm:w-32 h-fit pl-2"
-          />
-          <p className="px-4 sm:px-8 py-4  text-gray-800">
-            5.2- Eliminar todas as formas de violência contra todas as mulheres
-            e meninas nasesferas públicas e privadas, incluindo otráfico e
-            exploração sexual e de outros tipos.
-          </p>
-        </div>
-        <div className="flex items-center justify-center bg-gray-200">
-          <Image
-            src={IconGenero}
-            alt="Icone de Igualdade de Genero"
-            className="w-12 sm:w-32 h-fit pl-2"
-          />
-          <p className="px-4 sm:px-8 py-4  text-gray-800">
-            5.3- Eliminar todas as práticas nocivas, como os casamentos
-            prematuros, forçados e de crianças, e mutilações genitais femininas.
-          </p>
-        </div>
-        <div className="flex items-center justify-center bg-gray-200">
-          <Image
-            src={IconGenero}
-            alt="Icone de Igualdade de Genero"
-            className="w-12 sm:w-32 h-fit pl-2"
-          />
-          <p className="px-4 sm:px-8 py-4  text-gray-800">
-            5.4- Reconhecer e valorizar o trabalho de assistência e doméstico
-            não remunerado, por meio da disponibilização de serviços públicos,
-            infraestrutura e políticas de proteção social, bem como a promoção
-            da responsabilidade compartilhada dentro do lar e da família,
-            conforme os contextos nacionais.
-          </p>
-        </div>
-        <div className="flex items-center justify-center bg-gray-200">
-          <Image
-            src={IconGenero}
-            alt="Icone de Igualdade de Genero"
-            className="w-12 sm:w-32 h-fit pl-2"
-          />
-          <p className="px-4 sm:px-8 py-4  text-gray-800">
-            5.5-Garantir a participação plena e efetiva das mulheres e a
+        <CardMeta text="5.1- Acabar com todas as formas de discriminação contra todas as mulheres e meninas em todas as partes." />
+        <CardMeta text="5.2- Eliminar todas as formas de violência contra todas as mulheres e meninas nasesferas públicas e privadas, incluindo otráfico e exploração sexual e de outros tipos." />
+        <CardMeta text="5.3- Eliminar todas as práticas nocivas, como os casamentos prematuros, forçados e de crianças, e mutilações genitais femininas." />
+        <CardMeta text="5.4- Reconhecer e valorizar o trabalho de assistência e doméstico não remunerado, por meio da disponibilização de serviços públicos, infraestrutura e políticas de proteção social, bem como a promoção da responsabilidade compartilhada dentro do lar e da família, conforme os contextos nacionais." />
+        <CardMeta
+          text="5.5-Garantir a participação plena e efetiva das mulheres e a
             igualdade de oportunidades para a liderança em todos os níveis de
-            tomada de decisão navida política, econômica e pública.
-          </p>
-        </div>
-        <div className="flex flex-col sm:flex-row items-center sm:items-start justify-center">
+            tomada de decisão navida política, econômica e pública."
+        />
+
+        <div className="flex gap-2">
           <Image
             src={IconGenero}
             alt="Icone de Igualdade de Genero"
-            className="w-12 sm:w-32 h-fit pl-2 hidden sm:block"
+            className="w-12 sm:w-32 h-fit"
           />
           <div className="flex flex-col gap-4">
-            <p className="px-8 py-4 bg-gray-200 text-gray-800 ">
+            <p className="px-8 py-4 bg-gray-200 text-cinza-600">
               5.6-Assegurar o acesso universal à saúde sexual e reprodutiva e os
               direitos reprodutivos, como acordado em conformidade com o
               Programa de Ação da Conferência Internacional sobre População e
               Desenvolvimento e com a Plataforma de Ação de Pequim e os
               documentos resultantes de Suas conferências de revisão.
             </p>
-            <p className="px-8 py-4 bg-gray-200 text-gray-800 ">
+            <p className="px-8 py-4 bg-gray-200 text-cinza-600">
               5.6 a- Empreender reformas para dar às mulheres direitos iguais
               aos recursos econômicos, bem como o acesso a propriedade e
               controle sobre a terra e outras formas de propriedade, serviços
               financeiros, herança e os Tecursos naturais, de acordo com as leis
               nacionais;
             </p>
-            <p className="px-8 py-4 bg-gray-200 text-gray-800 ">
+            <p className="px-8 py-4 bg-gray-200 text-cinza-600">
               5.6 b- Aumentar o uso de tecnologias de base, em particular as
               tecnologias de informação e comunicação, para promover o
               empoderamento das mulheres:
             </p>
-            <p className="px-8 py-4 bg-gray-200 text-gray-800 ">
+            <p className="px-8 py-4 bg-gray-200 text-cinza-600">
               5.6 c-Adotar e fortalecer políticas sólidas e legislação aplicável
               para a promoção da igualdade de gênero e o empoderamento de todas
               as mulheres e meninas, em todos os níveis.
@@ -141,7 +93,7 @@ export function TextMain() {
         </div>
       </div>
 
-      <p className="text-xl sm:text-2xl text-gray-700 pt-8 text-justify">
+      <p className="text-xl sm:text-2xl text-cinza-600 pt-8 text-justify">
         O Sistema Confea/Crea, ao se aliar aos compromissos de igualdade de
         gênero da Agenda 2030, busca ser um agente para se alcançar o objetivo
         de uma sociedade em que as mulheres tenham as mesmas oportunidades e
